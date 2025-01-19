@@ -42,7 +42,6 @@ class HistoryExport:
         green_back = "#D5E8D4"
         peach_back = "#ffe6cc"
 
-
         self.history_box = Toplevel()
 
         # disable history button
@@ -63,8 +62,6 @@ class HistoryExport:
 
         export_instruction_txt = ("Please push <Export> to save your calculations in a text "
                                   "file.  If the filename already exists, it will be overwritten!")
-
-        calculations = ""
 
         # Label list (label text | format | bg)
         history_labels_list = [
